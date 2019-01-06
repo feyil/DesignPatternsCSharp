@@ -51,8 +51,8 @@ namespace SingleResponsibilityPrinciple
             }
         }
     }
-
-    class SingleResponsibilityPrinciple
+    /*
+    class Program
     {
         static void Main(string[] args)
         {
@@ -71,4 +71,5 @@ namespace SingleResponsibilityPrinciple
             Console.ReadKey();
         }
     }
+    */
 }
