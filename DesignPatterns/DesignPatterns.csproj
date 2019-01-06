@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationalBuilder.cs" />
     <Compile Include="DependencyInversionPrinciple.cs" />
     <Compile Include="InterfaceSegregationPrinciple.cs" />
     <Compile Include="LiskovSubstitutionPrinciple.cs" />

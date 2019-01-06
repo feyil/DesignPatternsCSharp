@@ -2,7 +2,7 @@
 
 Design Pattern implementations with C# (Tutorial)
 
-Created to understand design patterns deeply. These code written by following a series of tutorials. I am putting these to access whenever I need to recap design patterns. 
+Created to understand design patterns deeply. These codes written by following a series of tutorials. I am putting these to access whenever I need to recap design patterns. 
 
 ### The SOLID Design Principles
 
