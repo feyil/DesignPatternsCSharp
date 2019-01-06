@@ -74,7 +74,7 @@ namespace OpenClosedPrinciple
             }
         }
     } // we need to change ProductFilter when we want to add a new filter and it isn't good idea
-
+    /*
     public class Program
     {
         static void Main(string[] args)
@@ -117,7 +117,7 @@ namespace OpenClosedPrinciple
             }
         }
     }
-
+    */
     // OCP = open for extension but closed for modification
 
     public interface ISpecification<T>
