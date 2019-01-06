@@ -15,6 +15,7 @@ namespace SingleResponsibilityPrinciple
 
         public Journal()
         {
+            
             this.entries = new List<string>();
         }
 
