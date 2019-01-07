@@ -31,6 +31,6 @@ Created to understand design patterns deeply. These codes written by following a
 ### Builder Design Pattern
 
 * A builder is a separate component for building an object
-* Can either given builder a constructor or return it via a static function
+* Can either give builder a constructor or return it via a static function
 * To make builder fluent, return this
 * Different facets of an object can be built with different builders working in tandem via a base class
