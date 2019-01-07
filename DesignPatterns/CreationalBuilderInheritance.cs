@@ -8,8 +8,10 @@ namespace CreationalBuilderInheritance
 {
     public class Person
     {
-        public string Name;
-        public string Position;
+        public string Name { get; set; }
+        public string Position { get; set; }
+        public string BirthDate { get; set; }
+        public string Manager { get; set; }
 
         //class Builder : PersonInfoBuilder<Builder> { /* degenerate */}
 
@@ -22,11 +24,10 @@ namespace CreationalBuilderInheritance
 
         public override string ToString()
         {
-            return $"{nameof(Name)}: {Name}, {nameof(Position)}: {Position}";
+            return $"{nameof(Name)}: {Name}, {nameof(Position)}: {Position}, {nameof(BirthDate)}: {BirthDate}";
         }
     }
 
- 
     // write public it causes error at some times
     public abstract class PersonBuilder
     {
@@ -61,6 +62,12 @@ namespace CreationalBuilderInheritance
             person.Position = position;
             return (SELF)this;
         }
+
+        public SELF BirthDate(string birthDate)
+        {
+            person.BirthDate = birthDate;
+            return (SELF)this;
+        }
     }
 
     public class BuilderInheritanceDemo
@@ -72,9 +79,13 @@ namespace CreationalBuilderInheritance
                 .WorkAsA("Developer")
                 .Build();
             Console.WriteLine(me);
-       
-            
-           
+
+            var he = Person.New
+                .WorkAsA("Doctor")
+                .BirthDate("10/12/14")
+                .Called("Emre")
+                .Build();
+            Console.WriteLine(he);
         }
     }
 
