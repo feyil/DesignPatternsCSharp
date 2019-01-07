@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CreationalBuilder.cs" />
+    <Compile Include="CreationalBuilderInheritance.cs" />
     <Compile Include="DependencyInversionPrinciple.cs" />
     <Compile Include="InterfaceSegregationPrinciple.cs" />
     <Compile Include="LiskovSubstitutionPrinciple.cs" />
