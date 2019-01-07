@@ -27,3 +27,10 @@ Created to understand design patterns deeply. These codes written by following a
 ##### Dependency Inversion Principle
 
 * High-level modules should not depend upon low-level ones; use abstractions
+
+### Builder Design Pattern
+
+* A builder is a separate component for building an object
+* Can either given builder a constructor or return it via a static function
+* To make builder fluent, return this
+* Different facets of an object can be built with different builders working in tandem via a base class
