@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CreationalBuilder.cs" />
     <Compile Include="CreationalBuilderInheritance.cs" />
+    <Compile Include="CreationalFactory.cs" />
     <Compile Include="DependencyInversionPrinciple.cs" />
     <Compile Include="FacetedBuilder.cs" />
     <Compile Include="InterfaceSegregationPrinciple.cs" />

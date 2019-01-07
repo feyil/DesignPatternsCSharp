@@ -93,7 +93,7 @@ namespace FacetedBuilder
             return this;
         }
     }
-
+    /*
     public class Demo
     {
         static void Main(string[] args)
@@ -112,4 +112,5 @@ namespace FacetedBuilder
             Console.WriteLine(person);
         }
     }
+    */
 }
