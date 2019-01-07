@@ -69,7 +69,7 @@ namespace CreationalBuilderInheritance
             return (SELF)this;
         }
     }
-
+/*
     public class BuilderInheritanceDemo
     {
         static void Main(string[] args)
@@ -88,7 +88,7 @@ namespace CreationalBuilderInheritance
             Console.WriteLine(he);
         }
     }
-
+    */
 }
 
 
