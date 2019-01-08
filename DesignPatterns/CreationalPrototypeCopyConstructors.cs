@@ -57,7 +57,7 @@ namespace CreationalPrototypeCopyConstructors
             return $"{nameof(Name)}: {Name}, {nameof(Address)}: {Address}";
         }
     }
-
+    /*
     public class CopyConstructors
     {
         public static void Main(string[] args)
@@ -68,8 +68,9 @@ namespace CreationalPrototypeCopyConstructors
             var chris = new Employee(john);
 
             chris.Name = "Chris";
-            Console.WriteLine(john); // oops, john is called chris
+            Console.WriteLine(john); 
             Console.WriteLine(chris);
         }
     }
+    */
 }
