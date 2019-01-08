@@ -52,7 +52,7 @@ namespace CreationalPrototypeICloneableIsBad
             return new Address(StreetName, HouseNumber);
         }
     }
-
+    /*
     public class Demo
     {
         public static void Main(string[] args)
@@ -71,5 +71,7 @@ namespace CreationalPrototypeICloneableIsBad
             Console.WriteLine(john);
             Console.WriteLine(jane);
         }
+       
     }
+    */
 }
