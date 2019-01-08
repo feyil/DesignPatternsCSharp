@@ -46,6 +46,6 @@ Created to understand design patterns deeply. These codes written by following a
 
 * To implement a prototype partially construct an object and store it somewhere
 * Clone the prototype
-1. Implement your own deep copy fuctionality: or
-2. Serialize and deserialize
+	* Implement your own deep copy fuctionality: or
+	* Serialize and deserialize
 * Customize the resulting instance
