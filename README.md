@@ -1,4 +1,4 @@
-# Design Patterns with C#
+git # Design Patterns with C#
 
 Design Pattern implementations with C# (Tutorial)
 
@@ -34,3 +34,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Can either give builder a constructor or return it via a static function
 * To make builder fluent, return this
 * Different facets of an object can be built with different builders working in tandem via a base class
+
+### Factories
+
+* A factory method is a static method that creates objects
+* A factory can take care of object creation
+* A factory can be external or reside inside the object as an inner class
+* Hierarchies of factories can be used to create related objects
