@@ -41,3 +41,11 @@ Created to understand design patterns deeply. These codes written by following a
 * A factory can take care of object creation
 * A factory can be external or reside inside the object as an inner class
 * Hierarchies of factories can be used to create related objects
+
+### Prototype
+
+* To implement a prototype partially construct an object and store it somewhere
+* Clone the prototype
+>> Implement your own deep copy fuctionality: or
+>> Serialize and deserialize
+* Customize the resulting instance
