@@ -1,4 +1,4 @@
-git # Design Patterns with C#
+# Design Patterns with C#
 
 Design Pattern implementations with C# (Tutorial)
 
