@@ -76,6 +76,7 @@
     <Compile Include="StructuralAdapterRectangleEx.cs" />
     <Compile Include="StructuralAdapterWithCaching.cs" />
     <Compile Include="StructuralBridge.cs" />
+    <Compile Include="StructuralCompositeGeometricShapes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
