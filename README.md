@@ -56,3 +56,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Singletons are difficult to test
 * Instead of directly using a singleton, consider depending on an abstraction (e.g, an interface)
 * Consider defining singleton lifetime in DI container
+
+### Adapter
+
+* Implementing an Adapter is easy
+* Determine the API you have and the API you need
+* Create a component which aggregates(has a reference to, ...) the adaptee
+* Intermediate repsresentations can pile up: use caching and other optimizations.
