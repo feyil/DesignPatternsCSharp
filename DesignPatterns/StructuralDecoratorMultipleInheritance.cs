@@ -68,12 +68,12 @@ namespace StructuralDecoratorMultipleInheritance
 
     public class Program
     {
-        static void Main(string[] args)
-        {
-            var d = new Dragon();
-            d.Weight = 123;
-            d.Fly();
-            d.Crawl();
-        }
+        //static void Main(string[] args)
+        //{
+        //    var d = new Dragon();
+        //    d.Weight = 123;
+        //    d.Fly();
+        //    d.Crawl();
+        //}
     }
 }
