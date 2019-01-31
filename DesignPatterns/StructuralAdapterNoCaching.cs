@@ -99,11 +99,11 @@ namespace StructuralAdapterNoCaching
             Console.Write(".");
         }
 
-        public static void Main()
-        {
-            Draw();
-            Draw();
-        }
+        //public static void Main()
+        //{
+        //    Draw();
+        //    Draw();
+        //}
 
         private static void Draw()
         {
