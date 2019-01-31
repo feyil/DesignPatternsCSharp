@@ -63,3 +63,9 @@ Created to understand design patterns deeply. These codes written by following a
 * Determine the API you have and the API you need
 * Create a component which aggregates(has a reference to, ...) the adaptee
 * Intermediate repsresentations can pile up: use caching and other optimizations.
+
+### Bridge
+
+* Decouple abstraction from implementation
+* Both can exist as hierarchies
+* A stronger form of encapsulation
