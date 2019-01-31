@@ -83,5 +83,5 @@ Created to understand design patterns deeply. These codes written by following a
 * A decorator keeps the reference to the decorated object(s)
 * May or may not proxy over calls
 * Exist in a static variation
-	* X<Y<Foo>>
+	* X< Y < Foo > >
 	* Very limited due to inability to inherit from type parameters
