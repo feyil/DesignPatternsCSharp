@@ -364,13 +364,13 @@ namespace StructuralDecoratorCodeBuilder
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var cb = new CodeBuilder();
-            cb.AppendLine("class Foo")
-                .AppendLine("{")
-                .AppendLine("}");
-            Console.WriteLine(cb);
-        }
+        //public static void Main(string[] args)
+        //{
+        //    var cb = new CodeBuilder();
+        //    cb.AppendLine("class Foo")
+        //        .AppendLine("{")
+        //        .AppendLine("}");
+        //    Console.WriteLine(cb);
+        //}
     }
 }

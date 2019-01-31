@@ -78,6 +78,7 @@
     <Compile Include="StructuralBridge.cs" />
     <Compile Include="StructuralCompositeGeometricShapes.cs" />
     <Compile Include="StructuralDecoratorCodeBuilder.cs" />
+    <Compile Include="StructuralDecoratorMultipleInheritance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
