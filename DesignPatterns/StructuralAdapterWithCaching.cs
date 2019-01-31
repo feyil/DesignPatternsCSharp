@@ -160,11 +160,11 @@ namespace StructuralAdapterWithCaching
             Console.Write(".");
         }
 
-        public static void Main(string[] args)
-        {
-            Draw();
-            Draw();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    Draw();
+        //    Draw();
+        //}
 
         private static void Draw()
         {
@@ -172,7 +172,7 @@ namespace StructuralAdapterWithCaching
             {
                 foreach(var line in vo)
                 {
-                    var adapter = new LineToPointAdapter(line);
+                    IEnumerable<Point> adapter = new LineToPointAdapter(line);
                     adapter.ForEach(DrawPoint);
                 }
             }

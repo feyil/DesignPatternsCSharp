@@ -73,6 +73,7 @@
     <Compile Include="SingleResponsibilityPrinciple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StructuralAdapterNoCaching.cs" />
+    <Compile Include="StructuralAdapterRectangleEx.cs" />
     <Compile Include="StructuralAdapterWithCaching.cs" />
   </ItemGroup>
   <ItemGroup>
