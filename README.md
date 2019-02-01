@@ -85,3 +85,9 @@ Created to understand design patterns deeply. These codes written by following a
 * Exist in a static variation
 	* X< Y < Foo > >
 	* Very limited due to inability to inherit from type parameters
+
+### Façade
+
+* Build a Façade to provide a simplified API over a set of classees
+* May wish to (optionally) expose internals through the façade
+* May allow users to 'escalate' to use more complex APIs if they need to
