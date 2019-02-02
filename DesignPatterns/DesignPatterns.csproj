@@ -84,6 +84,7 @@
     <Compile Include="StructuralDecorator.cs" />
     <Compile Include="StructuralDecoratorCodeBuilder.cs" />
     <Compile Include="StructuralDecoratorMultipleInheritance.cs" />
+    <Compile Include="StructuralFlyweightTextFromattingcs.cs" />
     <Compile Include="StructuralFlyweightUsers.cs" />
   </ItemGroup>
   <ItemGroup>

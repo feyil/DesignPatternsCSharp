@@ -47,14 +47,14 @@ namespace StructuralFlyweightUsers
     [TestFixture]
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            User2 user = new User2("Furkan Emre");
-            User2 user2 = new User2("Furkan yılmaz");
-            Console.WriteLine(user.FullName);
-            Console.WriteLine(user2.FullName);
-            Console.WriteLine(User2.strings[2]);
-        } 
+        //public static void Main(string[] args)
+        //{
+        //    User2 user = new User2("Furkan Emre");
+        //    User2 user2 = new User2("Furkan yılmaz");
+        //    Console.WriteLine(user.FullName);
+        //    Console.WriteLine(user2.FullName);
+        //    Console.WriteLine(User2.strings[2]);
+        //} 
 
         public void ForceGC()
         {
