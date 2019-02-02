@@ -82,17 +82,17 @@ namespace StructuralDecorator
 
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            var square = new Square(1.23f);
-            Console.WriteLine(square.AsString());
+        //public static void Main(string[] args)
+        //{
+        //    var square = new Square(1.23f);
+        //    Console.WriteLine(square.AsString());
 
-            var redSquare = new ColoredShpae(square, "red");
-            Console.WriteLine(redSquare.AsString());
+        //    var redSquare = new ColoredShpae(square, "red");
+        //    Console.WriteLine(redSquare.AsString());
 
-            var redHalfTranparentSquare = new TransparentShape(redSquare, 0.5f);
-            Console.WriteLine(redHalfTranparentSquare.AsString());
-        }
+        //    var redHalfTranparentSquare = new TransparentShape(redSquare, 0.5f);
+        //    Console.WriteLine(redHalfTranparentSquare.AsString());
+        //}
     }
 
 }

@@ -66,6 +66,7 @@
     <Compile Include="CreationalSingleton.cs" />
     <Compile Include="CreationalSingletonMonostate.cs" />
     <Compile Include="DependencyInversionPrinciple.cs" />
+    <Compile Include="Facade.cs" />
     <Compile Include="FacetedBuilder.cs" />
     <Compile Include="InterfaceSegregationPrinciple.cs" />
     <Compile Include="LiskovSubstitutionPrinciple.cs" />
