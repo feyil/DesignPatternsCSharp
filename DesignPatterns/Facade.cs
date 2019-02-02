@@ -65,17 +65,17 @@ namespace Facade
         }
     }
 
-    // Use the facde to draw various types of shapes
+    // Use the facade to draw various types of shapes
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            ShapeMaker shapeMaker = new ShapeMaker();
+        //public static void Main(string[] args)
+        //{
+        //    ShapeMaker shapeMaker = new ShapeMaker();
 
-            shapeMaker.DrawCircle();
-            shapeMaker.DrawRectangle();
-            shapeMaker.DrawSquare();
-        }
+        //    shapeMaker.DrawCircle();
+        //    shapeMaker.DrawRectangle();
+        //    shapeMaker.DrawSquare();
+        //}
     }
 
 }
