@@ -86,6 +86,7 @@
     <Compile Include="StructuralDecoratorMultipleInheritance.cs" />
     <Compile Include="StructuralFlyweightTextFromattingcs.cs" />
     <Compile Include="StructuralFlyweightUsers.cs" />
+    <Compile Include="StructuralProxyProtectionProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
