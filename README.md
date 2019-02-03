@@ -105,7 +105,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Add relevant functionality to the redfined member functions
 * Different proxies (communication, logging, caching, etc.) have completely different behaviors
 
-
 ### Proxy vs. Decorator
 
 * Proxy provides an identical interface; decorator provides an enhanced interface

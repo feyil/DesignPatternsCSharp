@@ -70,10 +70,10 @@ namespace StructrualProxyDrinkDriveEx
     [TestFixture]
     public class TestSuite
     {
-        public static void Main(string[] args)
-        {
+        //public static void Main(string[] args)
+        //{
 
-        }
+        //}
 
         [Test]
         public void Test()
