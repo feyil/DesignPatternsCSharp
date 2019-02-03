@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralChainOfResponsibilityBrokerChain.cs" />
     <Compile Include="BehavioralChainOfResponsibilityMethodChain.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
