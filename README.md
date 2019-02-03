@@ -116,3 +116,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Chain of Responsibility can be implemented as a chain of references or a centralized construct
 * Enlist objects in the chain possibly controlling their order
 * Object removal from chain (e.g in Dispose())
+
+### Command
+
+* Encapsulate all details of an operation in a separate object
+* Define instruction for applying the command (either in the command itself, or elsewhere)
+* Optionally define intructions for undoing the command
+* Can create composite commands (a.k.a. macros)
