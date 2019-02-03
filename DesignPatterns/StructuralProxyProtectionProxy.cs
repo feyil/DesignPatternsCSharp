@@ -53,10 +53,10 @@ namespace StructuralProxyProtectionProxy
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            ICar car = new CarProxy(new Driver(12)); // 22
-            car.Drive();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    ICar car = new CarProxy(new Driver(12)); // 22
+        //    car.Drive();
+        //}
     }
 }

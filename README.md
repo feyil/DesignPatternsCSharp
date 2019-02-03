@@ -97,3 +97,9 @@ Created to understand design patterns deeply. These codes written by following a
 * Store common data externally
 * Define idea of 'ranges' on homogeneous collections and store data related to those ranges
 * .NET string interning is the Flyweight pattern
+
+### Proxy vs. Decorator
+
+* Proxy provides an identical interface; decorator provides an enhanced interface
+* Decorator typically aggregates (or has reference to) what it is decorating; proxy doesn not have to
+* Proxy might not even be working with a materialized object
