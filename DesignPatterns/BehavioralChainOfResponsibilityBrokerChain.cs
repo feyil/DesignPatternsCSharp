@@ -94,7 +94,7 @@ namespace BehavioralChainOfResponsibilityBrokerChain
 
         public void Dispose()
         {
-          //  game.Queries -= Handle;
+            game.Queries -= Handle;
         }
     }
     
@@ -132,22 +132,22 @@ namespace BehavioralChainOfResponsibilityBrokerChain
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var game = new Game();
-            var goblin = new Creature(game, "Stron Goblin", 3, 3);
-            Console.WriteLine(goblin);
+        //public static void Main(string[] args)
+        //{
+        //    var game = new Game();
+        //    var goblin = new Creature(game, "Stron Goblin", 3, 3);
+        //    Console.WriteLine(goblin);
 
-            using(new DoubleAttackModifier(game, goblin))
-            {
-                Console.WriteLine(goblin);
-                using(new IncreaseDefenseModifier(game, goblin))
-                {
-                    Console.WriteLine(goblin);
-                }
-            }
+        //    using(new DoubleAttackModifier(game, goblin))
+        //    {
+        //        Console.WriteLine(goblin);
+        //        using(new IncreaseDefenseModifier(game, goblin))
+        //        {
+        //            Console.WriteLine(goblin);
+        //        }
+        //    }
 
-            Console.WriteLine(goblin);
-        }
+        //    Console.WriteLine(goblin);
+        //}
     }
 }
