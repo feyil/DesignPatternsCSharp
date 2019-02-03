@@ -110,3 +110,9 @@ Created to understand design patterns deeply. These codes written by following a
 * Proxy provides an identical interface; decorator provides an enhanced interface
 * Decorator typically aggregates (or has reference to) what it is decorating; proxy doesn not have to
 * Proxy might not even be working with a materialized object
+
+### Chain of Responsibility
+
+* Chain of Responsibility can be implemented as a chain of references or a centralized construct
+* Enlist objects in the chain possibly controlling their order
+* Object removal from chain (e.g in Dispose())
