@@ -98,6 +98,14 @@ Created to understand design patterns deeply. These codes written by following a
 * Define idea of 'ranges' on homogeneous collections and store data related to those ranges
 * .NET string interning is the Flyweight pattern
 
+### Proxy
+
+* A proxy has the same interface as the underlying object
+* To create a proxy, simply replicate the existing interface of an object
+* Add relevant functionality to the redfined member functions
+* Different proxies (communication, logging, caching, etc.) have completely different behaviors
+
+
 ### Proxy vs. Decorator
 
 * Proxy provides an identical interface; decorator provides an enhanced interface
