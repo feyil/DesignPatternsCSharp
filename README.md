@@ -123,3 +123,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Define instruction for applying the command (either in the command itself, or elsewhere)
 * Optionally define intructions for undoing the command
 * Can create composite commands (a.k.a. macros)
+
+### Interpreter
+
+* Barring simple cases, an interpreter acts in two stages
+* Lexing turns text into a set of tokens, e.g.
+* Parsing tokens into meaninful constructs (MultiplicationExpression, Integer, AddtionExpression, Integer)
+* Parsed data can then be traversed
