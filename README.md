@@ -127,6 +127,6 @@ Created to understand design patterns deeply. These codes written by following a
 ### Interpreter
 
 * Barring simple cases, an interpreter acts in two stages
-* Lexing turns text into a set of tokens, e.g.
+* Lexing turns text into a set of tokens, e.g. (Star, Lpran, Lit, Plus, Lit, Rparen)
 * Parsing tokens into meaninful constructs (MultiplicationExpression, Integer, AddtionExpression, Integer)
 * Parsed data can then be traversed
