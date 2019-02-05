@@ -130,3 +130,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Lexing turns text into a set of tokens, e.g. (Star, Lpran, Lit, Plus, Lit, Rparen)
 * Parsing tokens into meaninful constructs (MultiplicationExpression, Integer, AddtionExpression, Integer)
 * Parsed data can then be traversed
+
+### Iterator
+
+* An iterator specified how you can traverse an object
+* An iterator object, unlike a method, cannot be recursive
+* Generally, an IEnumerable<T> returning method is enough
+* Iteration works through duck typing - you need a GetEnumerator() that yields a type that has Current and MoveNext()
