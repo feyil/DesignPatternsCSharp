@@ -144,3 +144,11 @@ Created to understand design patterns deeply. These codes written by following a
 * An iterator object, unlike a method, cannot be recursive
 * Generally, an IEnumerable<T> returning method is enough
 * Iteration works through duck typing - you need a GetEnumerator() that yields a type that has Current and MoveNext()
+
+### Mediator
+
+* Create the mediator and have each object in the system refer to it
+* Mediator engages in bidirectional communication with its connected components
+* Mediator has functions the components can call
+* Components have functions the mediator can call
+* Event processing libraries make communication easier to implement
