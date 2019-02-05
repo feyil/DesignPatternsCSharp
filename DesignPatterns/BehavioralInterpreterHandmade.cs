@@ -174,14 +174,14 @@ namespace BehavioralInterpreterHandmade
             return result;
         }
 
-        public static void Main(string[] args)
-        {
-            var input = "(13+4)-(12+1)";
-            var tokens = Lex(input);
-            Console.WriteLine(string.Join("\t", tokens));
+        //public static void Main(string[] args)
+        //{
+        //    var input = "(13+4)-(12+1)";
+        //    var tokens = Lex(input);
+        //    Console.WriteLine(string.Join("\t", tokens));
 
-            var parsed = Parse(tokens);
-            Console.WriteLine($"{input} = {parsed.Value}");
-        }
+        //    var parsed = Parse(tokens);
+        //    Console.WriteLine($"{input} = {parsed.Value}");
+        //}
     }
 }

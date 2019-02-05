@@ -63,6 +63,7 @@
     <Compile Include="BehavioralChainOfResponsibilityMethodChain.cs" />
     <Compile Include="BehavioralCommand.cs" />
     <Compile Include="BehavioralInterpreterHandmade.cs" />
+    <Compile Include="BehavioralIteratorTreeTraversal.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
     <Compile Include="CreationalBuilder.cs" />
