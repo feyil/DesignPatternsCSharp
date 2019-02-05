@@ -14,19 +14,26 @@ Created to understand design patterns deeply. These codes written by following a
 ##### Open-Closed Principle
 
 * Classes should be open for extension but closed for modification
+* You can easily change the lens of most SLR cameras without having to saw off the old lens and weld on a new one. You can add filters to most SLR cameras lens by just screwing them on
 
 ##### Liskov Substition Principle
 
-* You should be able to substitute a base type for a subtype
+* Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
+* Functions that use pointers or references to base classes must be able to use objects of devierd classes without knowing it
+* As you extend objects the original functionality of the elements that makeup the object should not change
+* Any Base 10 calculator should produce result of 4 when you press 2+2 regardless of the age or sophistication of the device
+* The original functionality of objects should be preserved as you build on them.
 
 ##### Interface Segregation Principle
 
 * Don't put too much into an interface; split into seperate interfaces
 * YAGNI - You ain't going to need it
 
-##### Dependency Inversion Principle
+##### Dependency Inversion Principle (Inversion of Control) (Dependency Injection)
 
-* High-level modules should not depend upon low-level ones; use abstractions
+* High level modules should not depend upon low level modules. Both should depend upon abstractions
+* Abstractions should not depend upon details. Details should depend upon abstractions.
+* Screwdriver bits do not care what brand or type of Slotted Screwdriver they are used with
 
 ### Builder Design Pattern
 
