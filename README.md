@@ -44,6 +44,7 @@ Created to understand design patterns deeply. These codes written by following a
 * To make builder fluent, return this
 * Different facets of an object can be built with different builders working in tandem via a base class
 
+
 * Seperate component for when object construction gets too complicated
 * Can create mutally cooperating sub-builders
 * Often has a fluent interface
