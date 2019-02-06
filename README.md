@@ -196,4 +196,4 @@ Created to understand design patterns deeply. These codes written by following a
 
 * Define an algorithm at a high level
 * Define constituent parts as abstract methods/properties
-* Inherit the algorithm clas, providing necessary overrides
+* Inherit the algorithm class, providing necessary overrides
