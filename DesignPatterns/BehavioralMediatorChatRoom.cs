@@ -67,21 +67,21 @@ namespace BehavioralMediatorChatRoom
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var room = new ChatRoom();
+        //public static void Main(string[] args)
+        //{
+        //    var room = new ChatRoom();
 
-            var john = new Person("John");
-            var jane = new Person("Jane");
+        //    var john = new Person("John");
+        //    var jane = new Person("Jane");
 
-            room.Join(john);
-            room.Join(jane);
+        //    room.Join(john);
+        //    room.Join(jane);
 
-            var simon = new Person("Simon");
-            room.Join(simon);
-            simon.Say("Hi Everyone!");
+        //    var simon = new Person("Simon");
+        //    room.Join(simon);
+        //    simon.Say("Hi Everyone!");
 
-            jane.PrivateMessage("Simon", "Glad you could join us!");
-        }
+        //    jane.PrivateMessage("Simon", "Glad you could join us!");
+        //}
     }
 }
