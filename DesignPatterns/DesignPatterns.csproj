@@ -57,6 +57,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayBackedProperties.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="BehavioralMementoUndoRedo.cs" />
     <Compile Include="BehavioralNullObject.cs" />
     <Compile Include="BehavioralObserverEvents.cs" />
+    <Compile Include="BehavioralObserverWeakEventPattern.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
     <Compile Include="CreationalBuilder.cs" />

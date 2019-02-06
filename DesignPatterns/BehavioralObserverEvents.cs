@@ -24,18 +24,18 @@ namespace BehavioralObserverEvents
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var person = new Person();
+        //public static void Main(string[] args)
+        //{
+        //    var person = new Person();
 
-            person.FallsIll += CallDoctor;
+        //    person.FallsIll += CallDoctor;
 
-            person.CatchACold();
-        }
+        //    person.CatchACold();
+        //}
 
         private static void CallDoctor(object sender, FallsIllEventArgs eventArgs)
         {
-            Console.WriteLine($"A docktor has been called to {eventArgs.Address}");
+            Console.WriteLine($"A doctor has been called to {eventArgs.Address}");
         }
     }
 }
