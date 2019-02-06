@@ -185,3 +185,9 @@ Created to understand design patterns deeply. These codes written by following a
 	* Action when a particular event causes a transition
 	* Guard conditions enabling/disabling a transition
 	* Default action when no transition are found for an event
+
+### Strategy
+
+* Define an algorithm at a high level
+* Define the interface you expect each strategy to follow
+* Provide for either dynamic or static composition of strategy in the overall algorithm
