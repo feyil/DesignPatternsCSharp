@@ -77,6 +77,7 @@
     <Compile Include="BehavioralStrategyDynamics.cs" />
     <Compile Include="BehavioralStrategyStatic.cs" />
     <Compile Include="BehavioralVisitorClassic.cs" />
+    <Compile Include="BehavioralVisitorDynamic.cs" />
     <Compile Include="BehavioralVisitorIntrusive.cs" />
     <Compile Include="BehavioralVisitorReflective.cs" />
     <Compile Include="BehavioraTemplateMethod.cs" />
