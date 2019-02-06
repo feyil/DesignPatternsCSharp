@@ -67,6 +67,7 @@
     <Compile Include="BehavioralIteratorTreeTraversal.cs" />
     <Compile Include="BehavioralMediatorChatRoom.cs" />
     <Compile Include="BehavioralMemento.cs" />
+    <Compile Include="BehavioralMementoUndoRedo.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
     <Compile Include="CreationalBuilder.cs" />
