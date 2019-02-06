@@ -55,8 +55,6 @@ namespace BehavioraTemplateMethod
         }
 
         protected override int WinningPlayer => currentPlayer;
-
-       
     }
 
     public class Demo

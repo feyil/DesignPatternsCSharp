@@ -191,3 +191,9 @@ Created to understand design patterns deeply. These codes written by following a
 * Define an algorithm at a high level
 * Define the interface you expect each strategy to follow
 * Provide for either dynamic or static composition of strategy in the overall algorithm
+
+### Template
+
+* Define an algorithm at a high level
+* Define constituent parts as abstract methods/properties
+* Inherit the algorithm clas, providing necessary overrides
