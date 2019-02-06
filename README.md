@@ -169,3 +169,10 @@ Created to understand design patterns deeply. These codes written by following a
 * Supply an instance of Null Object in place of actual object
 * Dynamic construction possible
 	* With associated performance implications
+
+### Observer
+
+* Observer is an intrusive approach: an observable must provide an event to subscribe to
+* Special care must be taken to prevent issues in multithreaded scenarios
+* .NET comes with observable collections
+* IObserver<T> / IObservable<T> are used in stream processing (Reactive Extensions)
