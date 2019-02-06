@@ -177,3 +177,11 @@ Created to understand design patterns deeply. These codes written by following a
 * .NET comes with observable collections
 * IObserver<T> / IObservable<T> are used in stream processing (Reactive Extensions)
 
+### State
+
+* Given sufficient complexity, it pays to formally define possible states and events/triggers
+* Can define
+	* State entry/exit behaviors
+	* Action when a particular event causes a transition
+	* Guard conditions enabling/disabling a transition
+	* Default action when no transition are found for an event
