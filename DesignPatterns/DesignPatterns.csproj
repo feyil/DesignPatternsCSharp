@@ -75,6 +75,7 @@
     <Compile Include="BehavioralStateHandmade.cs" />
     <Compile Include="BehavioralStateSwitchBased.cs" />
     <Compile Include="BehavioralStrategyDynamics.cs" />
+    <Compile Include="BehavioralStrategyStatic.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
     <Compile Include="CreationalBuilder.cs" />

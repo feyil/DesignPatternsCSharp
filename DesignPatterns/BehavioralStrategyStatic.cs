@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BehavioralStrategyDynamics
+namespace BehavioralStrategyStatic
 {
-   public enum OutputFormat
+    public enum OutputFormat
     {
         Markdown,
         Html
@@ -33,7 +33,7 @@ namespace BehavioralStrategyDynamics
 
         public void AddListItem(StringBuilder sb, string item)
         {
-            sb.AppendLine($"* {item}");
+            sb.AppendLine($" * {item}");
         }
     }
 
@@ -47,7 +47,7 @@ namespace BehavioralStrategyDynamics
         public void End(StringBuilder sb)
         {
             sb.AppendLine("</ul>");
-        } 
+        }
 
         public void AddListItem(StringBuilder sb, string item)
         {
@@ -55,25 +55,10 @@ namespace BehavioralStrategyDynamics
         }
     }
 
-    public class TextProcessor
+    public class TextProcessor<LS> where LS : IListStrategy, new()
     {
         private StringBuilder sb = new StringBuilder();
-        private IListStrategy listStrategy;
-
-        public void SetOutputFormat(OutputFormat format)
-        {
-            switch(format)
-            {
-                case OutputFormat.Markdown:
-                    listStrategy = new MarkdownListStrategy();
-                    break;
-                case OutputFormat.Html:
-                    listStrategy = new HtmlListStrategy();
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException();
-            }
-        }
+        private IListStrategy listStrategy = new LS();
 
         public void AppendList(IEnumerable<string> items)
         {
@@ -85,11 +70,6 @@ namespace BehavioralStrategyDynamics
             listStrategy.End(sb);
         }
 
-        public StringBuilder Clear()
-        {
-            return sb.Clear();
-        }
-
         public override string ToString()
         {
             return sb.ToString();
@@ -98,17 +78,15 @@ namespace BehavioralStrategyDynamics
 
     class Demo
     {
-        //public static void Main(string[] args)
-        //{
-        //    var tp = new TextProcessor();
-        //    tp.SetOutputFormat(OutputFormat.Markdown);
-        //    tp.AppendList(new[] { "foo", "bar", "baz" });
-        //    Console.WriteLine(tp);
+        public static void Main(string[] args)
+        {
+            var tp = new TextProcessor<MarkdownListStrategy>();
+            tp.AppendList(new[] { "foo", "bar", "baz" });
+            Console.WriteLine(tp);
 
-        //    tp.Clear();
-        //    tp.SetOutputFormat(OutputFormat.Html);
-        //    tp.AppendList(new[] { "foo", "bar", "baz" });
-        //    Console.WriteLine(tp);
-        //}
+            var tp2 = new TextProcessor<HtmlListStrategy>();
+            tp2.AppendList(new[] { "foo", "bar", "baz" });
+            Console.WriteLine(tp2);
+        }
     }
 }
