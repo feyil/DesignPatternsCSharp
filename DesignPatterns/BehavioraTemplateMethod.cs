@@ -59,10 +59,10 @@ namespace BehavioraTemplateMethod
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var chess = new Chess();
-            chess.Run();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    var chess = new Chess();
+        //    chess.Run();
+        //}
     }
 }

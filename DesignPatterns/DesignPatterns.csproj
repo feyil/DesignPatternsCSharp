@@ -76,6 +76,7 @@
     <Compile Include="BehavioralStateSwitchBased.cs" />
     <Compile Include="BehavioralStrategyDynamics.cs" />
     <Compile Include="BehavioralStrategyStatic.cs" />
+    <Compile Include="BehavioralVisitorIntrusive.cs" />
     <Compile Include="BehavioraTemplateMethod.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
