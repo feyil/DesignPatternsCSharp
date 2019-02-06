@@ -71,13 +71,13 @@ namespace BehavioralNullObject
 
     public class Demo
     {
-        public static void Main(string[] args)
-        { 
-            var log = new NullLog();
-            var ba = new BankAccount(log);
-            ba.Deposit(100);
-            ba.Withdraw(200);
+        //public static void Main(string[] args)
+        //{ 
+        //    var log = new NullLog();
+        //    var ba = new BankAccount(log);
+        //    ba.Deposit(100);
+        //    ba.Withdraw(200);
 
-        }
+        //}
     }
 }
