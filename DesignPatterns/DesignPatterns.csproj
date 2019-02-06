@@ -73,6 +73,7 @@
     <Compile Include="BehavioralObserverEvents.cs" />
     <Compile Include="BehavioralObserverWeakEventPattern.cs" />
     <Compile Include="BehavioralStateHandmade.cs" />
+    <Compile Include="BehavioralStateSwitchBased.cs" />
     <Compile Include="CreatiaonalPrototypeCopyThroughSerialization.cs" />
     <Compile Include="CreationalAbstractFactory.cs" />
     <Compile Include="CreationalBuilder.cs" />

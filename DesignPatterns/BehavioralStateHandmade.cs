@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BehavioralStateHandmade
 {
+    // I don't like the way it is implemented
     public enum State
     {
         OffHook,
@@ -51,27 +52,27 @@ namespace BehavioralStateHandmade
             }
           };
 
-        public static void Main(string[] args)
-        {
-            var state = State.OffHook;
-            while(true)
-            {
-                Console.WriteLine($"The phone is currently {state}");
-                Console.WriteLine("Select a trigger:");
+        //public static void Main(string[] args)
+        //{
+        //    var state = State.OffHook;
+        //    while (true)
+        //    {
+        //        Console.WriteLine($"The phone is currently {state}");
+        //        Console.WriteLine("Select a trigger:");
 
-                // foreach to for
-                for(var i = 0; i < rules[state].Count; i++)
-                {
-                    var (t, _) = rules[state][i];
-                    Console.WriteLine($"{i}. {t}");
-                }
+        //        // foreach to for
+        //        for (var i = 0; i < rules[state].Count; i++)
+        //        {
+        //            var (t, _) = rules[state][i];
+        //            Console.WriteLine($"{i}. {t}");
+        //        }
 
-                int input = int.Parse(Console.ReadLine());
+        //        int input = int.Parse(Console.ReadLine());
 
-                var (_, s) = rules[state][input];
-                state = s;
-            }
-        }
+        //        var (_, s) = rules[state][input];
+        //        state = s;
+        //    }
+        //}
     }
 
 }
