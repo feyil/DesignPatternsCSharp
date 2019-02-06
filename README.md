@@ -253,4 +253,4 @@ Created to understand design patterns deeply. These codes written by following a
 * Each accept() simply calls visitor.Visi(this)
 * Using dynamic, we can invoke right overload based on argument type alone (dynamic dispatch)
 * Adding functionality to existing classes through double dispatch
-* Dynamic visitor possible, but with performance cost
+* Dynamic visitor possible, but with performance cost.
