@@ -43,8 +43,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Can either give builder a constructor or return it via a static function
 * To make builder fluent, return this
 * Different facets of an object can be built with different builders working in tandem via a base class
-
-
 * Seperate component for when object construction gets too complicated
 * Can create mutally cooperating sub-builders
 * Often has a fluent interface
@@ -55,7 +53,6 @@ Created to understand design patterns deeply. These codes written by following a
 * A factory can take care of object creation
 * A factory can be external or reside inside the object as an inner class
 * Hierarchies of factories can be used to create related objects
-
 * Factory method more expressive than constructor
 * Factory can be an outside class or inner class; inner class has the benefit of accessing private members
 
@@ -66,7 +63,6 @@ Created to understand design patterns deeply. These codes written by following a
 	* Implement your own deep copy fuctionality: or
 	* Serialize and deserialize
 * Customize the resulting instance
-
 * Creation of object from an existing object
 * Requires either explicit deep copy or copy through serialization
 
@@ -76,7 +72,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Singletons are difficult to test
 * Instead of directly using a singleton, consider depending on an abstraction (e.g, an interface)
 * Consider defining singleton lifetime in DI container
-
 * When you need to ensure just a single instance exists
 * Made thread-sae and lazy with Lazy<T>
 * Consider extracting interface or using dependency injection
@@ -89,7 +84,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Determine the API you have and the API you need
 * Create a component which aggregates(has a reference to, ...) the adaptee
 * Intermediate repsresentations can pile up: use caching and other optimizations.
-
 * Converts the interface you get to the interface you need
 
 ### Bridge
@@ -97,7 +91,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Decouple abstraction from implementation
 * Both can exist as hierarchies
 * A stronger form of encapsulation
-
 * Decouple abstraction from implementation
 
 ### Composite
@@ -107,7 +100,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Composite design pattern lets us threat both types of objects uniformly
 * C# has special support for the enumeration concept
 * A single object can masquerade as a collection with yield return this;
-
 * Allow clients to treat individual objects and compositions of objects uniformly
 
 ### Decorator
@@ -117,7 +109,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Exist in a static variation
 	* X< Y < Foo > >
 	* Very limited due to inability to inherit from type parameters
-
 * Attach additional responsibilities to objects
 
 ### Façade
@@ -125,7 +116,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Build a Façade to provide a simplified API over a set of classees
 * May wish to (optionally) expose internals through the façade
 * May allow users to 'escalate' to use more complex APIs if they need to
-
 * Provide a single unified interface over a set of classes/systems
 
 ### Flyweight
@@ -133,7 +123,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Store common data externally
 * Define idea of 'ranges' on homogeneous collections and store data related to those ranges
 * .NET string interning is the Flyweight pattern
-
 * Efficiently support very large numbers of similar objects
 
 ### Proxy
@@ -142,7 +131,6 @@ Created to understand design patterns deeply. These codes written by following a
 * To create a proxy, simply replicate the existing interface of an object
 * Add relevant functionality to the redfined member functions
 * Different proxies (communication, logging, caching, etc.) have completely different behaviors
-
 * Provide a surrogate object that forwards calls to the real object while performing additional functions
 * Dynamic proxy creates a proxy dynamically, without the necessity of replicating the target object API
 
@@ -159,7 +147,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Chain of Responsibility can be implemented as a chain of references or a centralized construct
 * Enlist objects in the chain possibly controlling their order
 * Object removal from chain (e.g in Dispose())
-
 * Allow components to process information/events in a chain
 * Each element in the chain refers to next element; or
 * Make a list and go through it
@@ -170,7 +157,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Define instruction for applying the command (either in the command itself, or elsewhere)
 * Optionally define intructions for undoing the command
 * Can create composite commands (a.k.a. macros)
-
 * Good for audit, reply, undo/redo
 * Part of CQS/CQRS (Query is also, effectively, a command)
 
@@ -180,7 +166,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Lexing turns text into a set of tokens, e.g. (Star, Lpran, Lit, Plus, Lit, Rparen)
 * Parsing tokens into meaninful constructs (MultiplicationExpression, Integer, AddtionExpression, Integer)
 * Parsed data can then be traversed
-
 * Transform textual input into object-oriented structures
 * Used by interpreters compilers, static analysis tools, etc.
 * Compiler Theory is a separate branch of Computer Science
@@ -191,7 +176,6 @@ Created to understand design patterns deeply. These codes written by following a
 * An iterator object, unlike a method, cannot be recursive
 * Generally, an IEnumerable<T> returning method is enough
 * Iteration works through duck typing - you need a GetEnumerator() that yields a type that has Current and MoveNext()
-
 * Provides an interface for accesing elements of an aggregate object
 * IEnumerable<T> should be used in 99% of cases
 
@@ -202,7 +186,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Mediator has functions the components can call
 * Components have functions the mediator can call
 * Event processing libraries make communication easier to implement
-
 * Provides mediation services between two objects
 * E.g. message passing, chat room
 
@@ -212,7 +195,6 @@ Created to understand design patterns deeply. These codes written by following a
 * A memento is simply a token/handle class with (typically) no functions of its own
 * A memento is not required to expose directly state(s) to which it reverts the system
 * Can be used to implement undo/redo
-
 * Yields tokens representing system states
 * Tokens do not allow direct manipulation, but can be used in appropriate APIs
 
@@ -232,7 +214,6 @@ Created to understand design patterns deeply. These codes written by following a
 * Special care must be taken to prevent issues in multithreaded scenarios
 * .NET comes with observable collections
 * IObserver<T> / IObservable<T> are used in stream processing (Reactive Extensions)
-
 * Built into C# with the event keyword
 * Additional support provided for properties, collections and observable streams
 
@@ -244,7 +225,6 @@ Created to understand design patterns deeply. These codes written by following a
 	* Action when a particular event causes a transition
 	* Guard conditions enabling/disabling a transition
 	* Default action when no transition are found for an event
-
 * We model systems by having one of a possible states and transitions between these states
 * Such a system is called a state machine
 * Special framework exists to orchestrate state machines
@@ -272,6 +252,5 @@ Created to understand design patterns deeply. These codes written by following a
 * Create a visitor with Visit(Foo), Visit(Bar), for each element in the hierarchy
 * Each accept() simply calls visitor.Visi(this)
 * Using dynamic, we can invoke right overload based on argument type alone (dynamic dispatch)
-
 * Adding functionality to existing classes through double dispatch
 * Dynamic visitor possible, but with performance cost
