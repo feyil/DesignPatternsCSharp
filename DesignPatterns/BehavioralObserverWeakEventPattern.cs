@@ -61,27 +61,27 @@ namespace BehavioralObserverWeakEventPattern
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var btn = new Button();
-            var window = new Window2(btn);
-            var windowRef = new WeakReference(window);
+        //public static void Main(string[] args)
+        //{
+        //    var btn = new Button();
+        //    var window = new Window2(btn);
+        //    var windowRef = new WeakReference(window);
 
-            btn.Fire();
+        //    btn.Fire();
 
-            Console.WriteLine("Setting window to null");
-            window = null;
+        //    Console.WriteLine("Setting window to null");
+        //    window = null;
 
-            FireGC();
-            Console.WriteLine($"Is window alive after GC? {windowRef.IsAlive}");
+        //    FireGC();
+        //    Console.WriteLine($"Is window alive after GC? {windowRef.IsAlive}");
 
-            btn.Fire();
+        //    btn.Fire();
 
-            Console.WriteLine("Setting button to null");
-            btn = null;
+        //    Console.WriteLine("Setting button to null");
+        //    btn = null;
 
-            FireGC();
-        }
+        //    FireGC();
+        //}
 
         private static void FireGC()
         {

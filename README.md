@@ -176,3 +176,4 @@ Created to understand design patterns deeply. These codes written by following a
 * Special care must be taken to prevent issues in multithreaded scenarios
 * .NET comes with observable collections
 * IObserver<T> / IObservable<T> are used in stream processing (Reactive Extensions)
+
