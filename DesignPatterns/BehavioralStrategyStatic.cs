@@ -78,15 +78,15 @@ namespace BehavioralStrategyStatic
 
     class Demo
     {
-        public static void Main(string[] args)
-        {
-            var tp = new TextProcessor<MarkdownListStrategy>();
-            tp.AppendList(new[] { "foo", "bar", "baz" });
-            Console.WriteLine(tp);
+        //public static void Main(string[] args)
+        //{
+        //    var tp = new TextProcessor<MarkdownListStrategy>();
+        //    tp.AppendList(new[] { "foo", "bar", "baz" });
+        //    Console.WriteLine(tp);
 
-            var tp2 = new TextProcessor<HtmlListStrategy>();
-            tp2.AppendList(new[] { "foo", "bar", "baz" });
-            Console.WriteLine(tp2);
-        }
+        //    var tp2 = new TextProcessor<HtmlListStrategy>();
+        //    tp2.AppendList(new[] { "foo", "bar", "baz" });
+        //    Console.WriteLine(tp2);
+        //}
     }
 }
