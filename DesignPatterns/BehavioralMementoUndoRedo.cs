@@ -94,27 +94,27 @@ namespace BehavioralMementoUndoRedo
 
     public class Demo
     {
-        public static void Main(string[] args)
-        {
-            var ba = new BankAccount(100);
-            ba.Deposit(50);
-            ba.Deposit(25);
-            Console.WriteLine(ba);
+        //public static void Main(string[] args)
+        //{
+        //    var ba = new BankAccount(100);
+        //    ba.Deposit(50);
+        //    ba.Deposit(25);
+        //    Console.WriteLine(ba);
 
-            ba.Undo();
-            Console.WriteLine($"Undo 1: {ba}");
-            ba.Undo();
-            Console.WriteLine($"Undo 2: {ba}");
-            ba.Redo();
-            ba.Redo();
-            Console.WriteLine($"Redo 2: {ba}");
-            ba.Undo();
-            ba.Undo();
-            Console.WriteLine($"Undo: {ba}");
-            ba.Deposit(100);
-            Console.WriteLine($"Deposit: {ba}");
-            Console.WriteLine($"Changes: {ba.Changes[ba.Changes.Count - 1].Balance}");
-            Console.WriteLine($"Changes: {ba.Changes[ba.Current].Balance}");
-        }
+        //    ba.Undo();
+        //    Console.WriteLine($"Undo 1: {ba}");
+        //    ba.Undo();
+        //    Console.WriteLine($"Undo 2: {ba}");
+        //    ba.Redo();
+        //    ba.Redo();
+        //    Console.WriteLine($"Redo 2: {ba}");
+        //    ba.Undo();
+        //    ba.Undo();
+        //    Console.WriteLine($"Undo: {ba}");
+        //    ba.Deposit(100);
+        //    Console.WriteLine($"Deposit: {ba}");
+        //    Console.WriteLine($"Changes: {ba.Changes[ba.Changes.Count - 1].Balance}");
+        //    Console.WriteLine($"Changes: {ba.Changes[ba.Current].Balance}");
+        //}
     }
 }

@@ -159,3 +159,4 @@ Created to understand design patterns deeply. These codes written by following a
 * A memento is simply a token/handle class with (typically) no functions of its own
 * A memento is not required to expose directly state(s) to which it reverts the system
 * Can be used to implement undo/redo
+
